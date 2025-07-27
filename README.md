@@ -18,7 +18,7 @@ Follow the steps below to install and run the project locally.
 $ cp .env.example .env
 
 # 2. Install PHP dependencies
-$ composer install
+$ composer update
 
 # 3. Install Node dependencies
 $ npm install & npm run build
