@@ -17,11 +17,11 @@ Follow the steps below to install and run the project locally.
 # 1. Copy environment file and set up the database
 $ cp .env.example .env
 
-# 2. Install Node dependencies
-$ npm install & npm run build
-
-# 3. Install PHP dependencies
+# 2. Install PHP dependencies
 $ composer install
+
+# 3. Install Node dependencies
+$ npm install & npm run build
 
 # 4. Generate application key
 $ php artisan key:generate
